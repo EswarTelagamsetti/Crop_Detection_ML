@@ -1,11 +1,6 @@
-import numpy as np  # For numerical operations
-from flask import Flask, request, jsonify, render_template  # Flask web framework
-import pickle  # For loading the saved machine learning model
-import sklearn  # Ensure scikit-learn is installed for model compatibility
-import numpy as np  # For numerical operations
-from flask import Flask, request, jsonify, render_template  # Flask web framework
-import pickle  # For loading the saved machine learning model
-import sklearn  # Ensure scikit-learn is installed for model compatibility
+import numpy as np
+from flask import Flask, request, jsonify, render_template
+import pickle
 
 # Create flask app
 flask_app = Flask(__name__)
